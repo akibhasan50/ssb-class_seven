@@ -118,8 +118,3 @@ section {
     }
 }
 
-@media (max-width: 370px) {
-    .form-sec {
-        display: none;
-    }
-}
