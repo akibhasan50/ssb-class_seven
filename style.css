@@ -1,0 +1,125 @@
+.nav-col {
+    background: #353a40;
+}
+
+section {
+    padding: 5rem 0;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.seargithub {
+    background: #3f4448;
+    border: none;
+    color: #fff;
+    padding: 0 25px;
+}
+
+.signup-section {
+    background: url(img/simple-codelines.svg);
+    background-size: cover;
+    background-position: center;
+    background-color: #2c3137;
+    align-items: center;
+}
+
+.main-title {
+    font-size: 4rem;
+    color: #fff;
+}
+
+.main-pg {
+    font-size: 23px;
+    color: #b9b2b2;
+}
+
+.signup-section .row {
+    height: 100vh;
+    align-items: center;
+}
+
+.span-txt {
+    font-size: 14px;
+    line-height: 0px;
+}
+
+.build-dev {
+    padding: 66px;
+}
+
+.get-started {
+    background: #e5e6e7;
+}
+
+.get-started-sec {
+    background: #fff;
+}
+
+.free-team {
+    background: #04438a;
+}
+
+.better-way {
+    background: #e5e6e7;
+}
+
+.better-head {
+    font-size: 3rem;
+}
+
+.better-span {
+    color: #6f7277;
+    letter-spacing: 3px;
+}
+
+.better-para {
+    color: #6f7277;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 767px) {
+    .signup-section {}
+
+    .form-sec {
+        text-align: center;
+    }
+
+    .build-dev {
+        text-align: center;
+        padding: 0;
+    }
+
+    .main-title {
+        font-size: 2rem;
+
+    }
+
+    .main-pg {
+        font-size: 16px;
+
+    }
+
+}
+
+@media (max-width: 575px) {
+    .get-started-sec {
+        text-align: center;
+    }
+
+    .better-head {
+        font-size: 2rem;
+    }
+
+    .better-para {
+
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 370px) {
+    .form-sec {
+        display: none;
+    }
+}
